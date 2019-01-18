@@ -175,6 +175,11 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+.skills {
+  font-size: 1.3rem; }
+  .skills .skillsub {
+    font-size: 1.2rem; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
