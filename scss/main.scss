@@ -16,6 +16,10 @@ body{
   line-height: 1.5;
 }
 
+.txt-type > .txt {
+    border-right: 0.2rem solid $secondary-color;
+  }
+
 //Headings
 h1,h2,h3{
   margin: 0;
