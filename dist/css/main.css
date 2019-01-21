@@ -179,9 +179,8 @@ main {
     border-bottom: #eece1a 5px solid; }
 
 .skills {
-  font-size: 1.3rem; }
-  .skills .skillsub {
-    font-size: 1.2rem; }
+  font-size: 1.5rem;
+  justify-content: center; }
 
 .projects {
   display: grid;
