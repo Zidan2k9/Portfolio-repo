@@ -213,6 +213,12 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+.projectInfo {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
