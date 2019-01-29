@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Zidan2k9/Portfolio-repo.git"
   },
-  "engines":{
-    "node":"10.15.1",
-    "npm":"6.5.0"
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.7.0"
   },
   "author": "Zain Ul-Abdeen",
   "license": "MIT",
