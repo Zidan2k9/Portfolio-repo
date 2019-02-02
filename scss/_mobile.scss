@@ -62,8 +62,9 @@
 //small screen
 @include mediaSm {
   main {
+    padding: 2rem;
+
     #home h1 {
-      padding: 2rem;
       margin-top: 10vh;
     }
 
@@ -71,7 +72,7 @@
       font-size: 1.5rem;
     }
 
-    .lg-heading{
+    .lg-heading {
       margin-top: 1rem;
       font-size: 5rem;
     }
