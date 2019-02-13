@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>BT Real Estate</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link current">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="projectPage">
+    <h1 class="lg-heading">
+      BT Real Estate <span class="text-secondary"> Website</span>
+    </h1>
+    <h2 class="sm-heading">
+    A fictional real estate website created using Django and PostgreSQL
+    </h2>
+
+    <div class="projectInfo">
+      <h3>Created using: <span class="text-secondary">HTML, CSS, Python, Django, Bootstrap, PostgreSQL, Gunicorn and NGinx</span></h3>
+
+      <br>
+
+      <p>This is a website for the fictional real estate company BT Real Estate. The primary goal of this project was to improve my skills with Python, to gain a better understanding of backend web development and to treat this website as a real world project given to me by a client with a set of requirements. The website use's Python's Django framework combined with PostgreSQL to allow users to admin the content of the website. Admin users can add, delete and edit details of property listings and the realtors associated with the listings. Property enquiries can also be viewed.</p>
+      <p>Website visiors can view, search and inquire for a property. Registered users have their inquired properties saved in the database (which they can view on their dashboard) and cannot inquire for a property more than once. Once a user inquires about a property, the company and the realtor associated with the property are informed via email.</p>
+      <p>The website structure is a combination of Django apps along with their associated database table models. Requirements such as  registered user accounts, inquires, property listings, realtor information and web pages have their own individual app. The table models are created by Django and then migrated to PostgreSQL.</p>
+      <p>The project's development environment was enclosed in a 'virtual environment' to isolate project files and library dependencies ensuring there would be no clashes with the libraries contained on the local machine. All requirements were tested locally including a local instance of the database before deploying the website on a Digital Ocean Linux Ubuntu droplet. The droplet was protected by SSH authentication and was accessed using PuTTy.</p>
+      <p>To replicate the development environment on Ubuntu a number of tasks were performed. These included creating a new user and giving them root priviliges, enabling the firewall, installing a number of software packages (Python, Postgres and NGinx). A PostgreSQL database was created and the project's code was cloned from the repository. Migrations were performed to create tables based on the table models of each app in the project.</p>
+      <p>Gunicorn was used in combination with NGinx to replace Django's local deployment functionality and instead deploy the website globally. The website can be accessed using the IP address of the Linux droplet. This website is solely part of my portfolio and for this reason I have not assigned a domain for it.</p>
+
+    </div>
+
+
+  </main>
+
+
+
+  <footer id="main-footer">
+
+    Copyright &copy; 2019
+  </footer>
+
+  <script src="js/particles.js"></script>
+  <script src="js/projectparticles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
