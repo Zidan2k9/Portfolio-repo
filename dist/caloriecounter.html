@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
-  <title>Nano Posts</title>
+  <title>CRUD Meal Calorie Counter</title>
 </head>
 
 <body>
@@ -49,27 +49,27 @@
 
   <main id="projectPage">
     <h1 class="lg-heading">
-      Nano<span class="text-secondary"> Posts</span>
+      CRUD Meal<span class="text-secondary"> Calorie Counter</span>
     </h1>
     <h2 class="sm-heading">
-    A CRUD app for note taking
+    A CRUD app to note down the amount of calories in each meal
     </h2>
 
     <div class="projectInfo">
-      <h3>Created using: <span class="text-secondary">HTML, Bootstrap, JavaScript and Babel</span></h3>
+      <h3>Created using: <span class="text-secondary">HTML, Materialiaze CSS, JavaScript</span></h3>
 
       <br>
 
       <p>
-        A CRUD webapp where users can add, remove, edit and delete posts. The posts are saved in a local JSON api.
+        A CRUD webapp where users can note down the calories for meals. The total calories are also displayed. Users have the option to update or delete notes
       </p>
 
       <p>
-        App functionality is seperated into modules, where the modules were imported from scripts when needed.
+        The app was designed to seperate the logic, functionality and the UI. For this reason I took the decision to implement the Module design pattern. The app contains a number of controllers including the App Controller, the Storage Controller and the UI Controller. Before data was passed to the UI Controller to be displayed on screen it was first tested and displayed through the development console to ensure that the functionality was achieving the desired results.
       </p>
 
       <p>
-        Data is stored locally in a backend JSON API and is retrieved using local storage.
+        Data is stored in local storage, ensuring that the current state can always be retrieved if the browser is closed down.
       </p>
 
     </div>
