@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Zidan2k9/Portfolio-repo#readme",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   }
 }
